@@ -431,3 +431,69 @@ body {
   color: var(--color-light);
 }
 
+/* ============================================
+   12. FEATURES GRID
+   ============================================ */
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: var(--spacing-lg);
+  margin-bottom: var(--spacing-2xl);
+}
+
+.feature-card {
+  background-color: var(--color-secondary);
+  border: 1px solid var(--color-secondary);
+  border-radius: var(--radius-sm);
+  padding: var(--spacing-lg);
+  text-align: center;
+  transition: var(--transition);
+  cursor: pointer;
+}
+
+.feature-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px rgba(163, 74, 232, 0.2);
+  border-color: var(--color-primary);
+}
+
+.feature-card__icon {
+  width: 50px;
+  height: 50px;
+  color: var(--color-primary);
+  margin: 0 auto var(--spacing-md);
+  transition: var(--transition);
+}
+
+.feature-card:hover .feature-card__icon {
+  transform: scale(1.1) rotate(5deg);
+}
+
+.feature-card__title {
+  font-family: var(--font-primary);
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: var(--spacing-sm);
+  color: var(--color-light);
+  letter-spacing: 0.5px;
+}
+
+.feature-card__text {
+  font-size: 14px;
+  font-weight: 200;
+  line-height: 1.6;
+  color: var(--color-light);
+}
+
+/* ============================================
+   13. CTA BUTTONS
+   ============================================ */
+
+.cta-buttons {
+  display: flex;
+  gap: var(--spacing-lg);
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
