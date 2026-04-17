@@ -196,3 +196,54 @@ body {
   background-color: var(--color-primary);
 }
 
+/* ============================================
+   8. NAVBAR
+   ============================================ */
+
+.navbar {
+  flex: 1;
+  margin: 0 40px;
+}
+
+.nav-menu {
+  display: flex;
+  list-style: none;
+  gap: var(--spacing-xl);
+}
+
+.nav-menu__item {
+  /* Elemento dentro del menú */
+}
+
+.nav-menu__link {
+  color: var(--color-light);
+  text-decoration: none;
+  font-family: var(--font-primary);
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  position: relative;
+  transition: var(--transition);
+  display: block;
+  padding: 8px 0;
+}
+
+.nav-menu__link::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: var(--color-primary);
+  transition: var(--transition);
+}
+
+.nav-menu__link:hover {
+  color: var(--color-primary);
+}
+
+.nav-menu__link:hover::after {
+  width: 100%;
+}
+
