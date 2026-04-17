@@ -1028,3 +1028,135 @@ body {
   line-height: 1.7;
   margin-bottom: var(--spacing-lg);
 }
+
+/* ============================================
+   22. PRICING SECTION
+   ============================================ */
+
+.pricing-section {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-lg);
+  margin-bottom: var(--spacing-lg);
+}
+
+.pricing-item {
+  display: flex;
+  gap: var(--spacing-md);
+  align-items: flex-start;
+  padding: var(--spacing-md);
+  background-color: rgba(163, 74, 232, 0.05);
+  border-radius: var(--radius-sm);
+  border-left: 4px solid var(--color-primary);
+  transition: var(--transition);
+}
+
+.pricing-item:hover {
+  transform: translateX(10px);
+}
+
+.pricing-item__icon {
+  width: 32px;
+  height: 32px;
+  color: var(--color-primary);
+  flex-shrink: 0;
+}
+
+.pricing-item__title {
+  font-family: var(--font-primary);
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 4px;
+  letter-spacing: 0.5px;
+}
+
+.pricing-item__text {
+  font-size: 13px;
+  font-weight: 200;
+}
+
+/* ============================================
+   23. PLATFORMS SECTION
+   ============================================ */
+
+.platforms {
+  padding: var(--spacing-3xl) 20px;
+  background: linear-gradient(
+    135deg,
+    rgba(163, 74, 232, 0.05),
+    rgba(163, 74, 232, 0.02)
+  );
+}
+
+.platforms__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: var(--spacing-lg);
+}
+
+.platform-card {
+  background-color: var(--color-secondary);
+  border: 1px solid var(--color-tertiary);
+  border-radius: var(--radius-sm);
+  padding: var(--spacing-lg);
+  text-align: left;
+  transition: var(--transition);
+  cursor: pointer;
+}
+
+.platform-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 40px rgba(163, 74, 232, 0.2);
+  border-color: var(--color-primary);
+}
+
+.platform-card__icon {
+  width: 48px;
+  height: 48px;
+  color: var(--color-primary);
+  margin-bottom: var(--spacing-md);
+  transition: var(--transition);
+}
+
+.platform-card:hover .platform-card__icon {
+  transform: scale(1.1);
+}
+
+.platform-card__title {
+  font-family: var(--font-primary);
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: var(--spacing-sm);
+  color: var(--color-light);
+  letter-spacing: 0.5px;
+}
+
+.platform-card__text {
+  font-size: 13px;
+  font-weight: 200;
+  line-height: 1.6;
+  margin-bottom: var(--spacing-lg);
+  color: var(--color-light);
+}
+
+.link-more {
+  color: var(--color-light);
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 200;
+  transition: var(--transition);
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.link-more:hover {
+  color: var(--color-primary);
+  transform: translateX(5px);
+}
+
+.link-more__arrow {
+  color: var(--color-primary);
+  font-weight: 600;
+}
+
