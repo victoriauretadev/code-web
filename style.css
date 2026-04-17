@@ -583,3 +583,43 @@ body {
   box-shadow: 0 20px 50px rgba(0, 0, 0, 0.3);
 }
 
+/* ============================================
+   16. STATS GRID
+   ============================================ */
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--spacing-xl);
+}
+
+.stats-grid__item {
+  text-align: left;
+  padding-right: var(--spacing-lg);
+  border-right: 1px solid var(--color-primary);
+}
+
+.stats-grid__item:last-child {
+  border-right: none;
+}
+
+.stats-grid__number {
+  font-family: var(--font-primary);
+  font-size: 38px;
+  font-weight: 500;
+  margin-bottom: var(--spacing-sm);
+  letter-spacing: 1px;
+}
+
+.stats-grid__number-highlight {
+  color: var(--color-primary);
+  font-weight: 600;
+}
+
+.stats-grid__label {
+  font-family: var(--font-primary);
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+}
+
