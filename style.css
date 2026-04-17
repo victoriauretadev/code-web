@@ -1502,4 +1502,88 @@ body {
   }
    }
 
-   
+
+/* ============================================
+   29. RESPONSIVE DESIGN - TABLET PEQUEÑO (768px)
+   ============================================ */
+
+@media (max-width: 768px) {
+  .logo__img {
+    width: 150px;
+  }
+
+  .hero {
+    padding: 140px 20px var(--spacing-xl);
+  }
+
+  .hero__title {
+    font-size: 28px;
+  }
+
+  .hero__subtitle {
+    font-size: 14px;
+  }
+
+  .section-heading {
+    font-size: 24px;
+  }
+
+  .why-choose-us__title {
+    font-size: 24px;
+  }
+
+  .contact-section__title {
+    font-size: 24px;
+  }
+
+  .cta-buttons {
+    flex-direction: column;
+  }
+
+  .cta-buttons .btn {
+    width: 100%;
+  }
+
+  .form-row {
+    grid-template-columns: 1fr;
+  }
+
+  .features-grid,
+  .benefits-grid,
+  .platforms__grid,
+  .cards-column {
+    grid-template-columns: 1fr;
+  }
+
+  .web-design__title,
+  .boost-presence__title {
+    font-size: 20px;
+  }
+
+  .quienes-somos {
+    gap: 30px;
+    padding: 60px 20px;
+  }
+
+  .quienes-somos::before {
+    width: 300px;
+    height: 300px;
+    top: -100px;
+    right: -100px;
+  }
+
+  .quienes-somos::after {
+    width: 250px;
+    height: 250px;
+    bottom: -100px;
+    left: -100px;
+  }
+
+  .quienes-somos__title {
+    font-size: 28px;
+  }
+
+  .quienes-somos__description {
+    font-size: 14px;
+  }
+}
