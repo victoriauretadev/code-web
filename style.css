@@ -978,3 +978,53 @@ body {
   line-height: 1.6;
   color: var(--color-text-dark);
 }
+
+/* ============================================
+   21. BOOST PRESENCE SECTION
+   ============================================ */
+
+.boost-presence {
+  padding: var(--spacing-3xl) 20px;
+}
+
+.boost-presence__wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--spacing-2xl);
+  align-items: center;
+}
+
+.boost-presence__image {
+  display: flex;
+  justify-content: center;
+}
+
+.boost-presence__image-img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  border-radius: var(--radius-md);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.3);
+}
+
+.boost-presence__text {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-lg);
+}
+
+.boost-presence__title {
+  font-family: var(--font-primary);
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 1.2;
+  margin-bottom: var(--spacing-md);
+  letter-spacing: 0.5px;
+}
+
+.boost-presence__description {
+  font-size: 15px;
+  font-weight: 200;
+  line-height: 1.7;
+  margin-bottom: var(--spacing-lg);
+}
