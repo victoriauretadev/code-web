@@ -247,3 +247,22 @@ body {
   width: 100%;
 }
 
+
+/* ============================================
+   9. AUTH BUTTONS
+   ============================================ */
+
+.auth-buttons {
+  display: flex;
+  gap: var(--spacing-lg);
+  flex-shrink: 0;
+}
+
+.auth-buttons-mobile {
+  display: none;
+  flex-direction: column;
+  gap: var(--spacing-md);
+  padding: 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  width: 100%;
+}
