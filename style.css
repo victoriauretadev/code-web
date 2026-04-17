@@ -1160,3 +1160,41 @@ body {
   font-weight: 600;
 }
 
+/* ============================================
+   24. TECHNOLOGIES SECTION
+   ============================================ */
+
+.technologies {
+  background-color: var(--color-light-bg);
+  color: var(--color-text-dark);
+  padding: var(--spacing-3xl) 20px;
+}
+
+.technologies .section-heading {
+  color: var(--color-text-dark);
+}
+
+.tech-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--spacing-2xl);
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: var(--spacing-lg) 0;
+}
+
+.tech-logos__item {
+  height: 60px;
+  width: auto;
+  object-fit: contain;
+  filter: grayscale(100%);
+  transition: var(--transition);
+}
+
+.tech-logos__item:hover {
+  filter: grayscale(0%) drop-shadow(0 0 10px rgba(163, 74, 232, 0.5));
+  transform: scale(1.15);
+}
+
