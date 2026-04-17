@@ -129,3 +129,29 @@ body {
   margin: 0 auto;
   padding: 0 20px;
 }
+
+/* ============================================
+   6. LOGO
+   ============================================ */
+
+.logo {
+  flex-shrink: 0;
+}
+
+.logo__link {
+  display: block;
+  text-decoration: none;
+}
+
+.logo__img {
+  width: 230px;
+  height: auto;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.logo__img:hover {
+  opacity: 0.8;
+  transform: translateY(-2px);
+}
+
