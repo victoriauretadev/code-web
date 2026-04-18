@@ -693,4 +693,120 @@ body {
   }
 }
 
- 
+ /* ============================================
+   17. RESPONSIVE DESIGN - MÓVIL (480px)
+   ============================================ */
+
+@media (max-width: 480px) {
+  .logo__img {
+    width: 120px;
+  }
+
+  .hamburger__line {
+    width: 22px;
+    height: 2.5px;
+  }
+
+  .navbar {
+    margin: 0;
+  }
+
+  .hamburger-toggle:checked ~ .navbar {
+    max-height: 600px;
+  }
+
+  .nav-menu {
+    padding: 15px;
+  }
+
+  .nav-menu__link {
+    font-size: 16px !important;
+    padding: 12px 0;
+  }
+
+  .auth-buttons-mobile {
+    padding: 15px;
+    gap: var(--spacing-sm);
+  }
+
+  .auth-buttons-mobile .btn {
+    padding: 10px 15px;
+    font-size: 14px;
+  }
+
+  .auth-section {
+    padding: 110px 20px var(--spacing-lg);
+    min-height: auto;
+  }
+
+  .auth-section__wrapper {
+    grid-template-columns: 1fr;
+    gap: var(--spacing-lg);
+  }
+
+  .auth-section__title {
+    font-size: 36px !important;
+    font-weight: 700;
+    line-height: 1.3;
+    margin-bottom: var(--spacing-md);
+  }
+
+  .auth-section__subtitle {
+    font-size: 18px !important;
+    line-height: 1.6;
+    margin-bottom: var(--spacing-xl);
+  }
+
+  .auth-card {
+    padding: var(--spacing-lg);
+  }
+
+  .auth-card__title {
+    font-size: 32px !important;
+    font-weight: 700;
+    line-height: 1.3;
+    margin-bottom: var(--spacing-lg);
+  }
+
+  .auth-form {
+    gap: var(--spacing-md);
+    margin-bottom: var(--spacing-md);
+  }
+
+  .form-group__label {
+    font-size: 15px !important;
+    font-weight: 600;
+  }
+
+  .form-group__input {
+    font-size: 16px !important;
+    padding: var(--spacing-md);
+  }
+
+  .auth-social__button {
+    padding: var(--spacing-md);
+    font-size: 16px !important;
+  }
+
+  .auth-social__icon {
+    width: 24px !important;
+    height: 24px !important;
+  }
+
+  .auth-card__divider {
+    font-size: 16px;
+    margin: var(--spacing-lg) 0;
+  }
+
+  .footer__text {
+    font-size: 15px !important;
+  }
+
+  .footer__link {
+    font-size: 15px !important;
+  }
+
+  .footer__title {
+    font-size: 18px;
+  }
+}
