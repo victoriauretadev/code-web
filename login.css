@@ -323,6 +323,7 @@ body {
 
 .auth-section__content {
   max-width: 500px;
+  margin-bottom: auto;
 }
 
 .auth-section__title {
