@@ -460,3 +460,53 @@ body {
   accent-color: var(--color-primary);
 }
 
+/* ============================================
+   13. SOCIAL BUTTONS
+   ============================================ */
+
+.auth-card__divider {
+  text-align: center;
+  margin: var(--spacing-lg) 0;
+  color: var(--color-text-light);
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.auth-social {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+  margin-bottom: var(--spacing-lg);
+}
+
+.auth-social__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--spacing-md);
+  padding: var(--spacing-md);
+  background-color: #0f0f12;
+  border: 1px solid #2a2a2a;
+  border-radius: var(--radius-sm);
+  color: var(--color-light);
+  cursor: pointer;
+  transition: var(--transition);
+  font-family: var(--font-secondary);
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.auth-social__button:hover {
+  border-color: var(--color-primary);
+  box-shadow: 0 0 12px rgba(163, 74, 232, 0.3);
+  transform: translateY(-2px);
+}
+
+.auth-social__icon {
+  width: 20px;
+  height: 20px;
+  color: var(--color-primary);
+  flex-shrink: 0;
+}
+
