@@ -1508,13 +1508,7 @@ body {
   margin-top:5px;
  }
 
- .hero__title{
-  font-size: 36px !important;
- }
 
- .hero__subtitle{
-  font-size: 25px !important;
- }
  
   .logo__img {
     width: 270px;
@@ -1609,6 +1603,14 @@ body {
   .logo__img {
     width: 270px;
   }
+
+   .hero__title{
+  font-size: 36px !important;
+ }
+
+ .hero__subtitle{
+  font-size: 25px !important;
+ }
 
   .hamburger__line {
     width: 22px;
