@@ -589,3 +589,69 @@ body {
   letter-spacing: 0.5px;
 }
 
+/* ============================================
+   15. RESPONSIVE DESIGN - TABLET (1024px)
+   ============================================ */
+
+ @media (max-width: 1024px) {
+  .hamburger {
+    display: flex !important;
+  }
+
+  .navbar {
+    position: fixed;
+    top: 70px;
+    left: 0;
+    right: 0;
+    background-color: var(--color-dark);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease;
+    z-index: 999;
+    margin: 0;
+    flex: none;
+  }
+
+  .hamburger-toggle:checked ~ .navbar {
+    max-height: 700px;
+  }
+
+  .hamburger-toggle:checked ~ .navbar .auth-buttons-mobile {
+    display: flex;
+  }
+
+  .nav-menu {
+    flex-direction: column;
+    gap: 0;
+    padding: 20px;
+    width: 100%;
+  }
+
+  .nav-menu__item {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    padding: 0;
+  }
+
+  .nav-menu__link {
+    font-size: 15px;
+    padding: 15px 0;
+  }
+
+  .nav-menu__link::after {
+    display: none;
+  }
+
+  .nav-menu__link:hover {
+    padding-left: 10px;
+  }
+
+  .auth-buttons {
+    display: none;
+  }
+
+  .auth-section__wrapper {
+    grid-template-columns: 1fr;
+    gap: var(--spacing-lg);
+  }
+}
