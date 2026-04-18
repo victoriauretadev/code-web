@@ -723,3 +723,59 @@ body {
   }
 }
 
+/* ============================================
+   17. RESPONSIVE DESIGN - TABLET PEQUEÑO (768px)
+   ============================================ */
+
+@media (max-width: 768px) {
+  .logo__img {
+    width: 150px;
+  }
+
+  .auth-section {
+    padding-top: 100px;
+    padding-bottom: var(--spacing-xl);
+    padding-left: 20px;
+    padding-right: 20px;
+    min-height: auto;
+    align-items: flex-start;
+  }
+
+  .auth-section__wrapper {
+    grid-template-columns: 1fr;
+    gap: var(--spacing-lg);
+    margin-top: var(--spacing-lg);
+  }
+
+  .auth-section__content {
+    max-width: 100%;
+  }
+
+  .auth-section__title {
+    font-size: 28px;
+  }
+
+  .auth-section__subtitle {
+    font-size: 14px;
+  }
+
+  .auth-card {
+    padding: var(--spacing-lg);
+  }
+
+  .auth-card__title {
+    font-size: 22px;
+    margin-bottom: var(--spacing-md);
+  }
+
+  .auth-form {
+    gap: var(--spacing-md);
+    margin-bottom: var(--spacing-md);
+  }
+
+  .form-row {
+    grid-template-columns: 1fr;
+    gap: var(--spacing-md);
+  }
+}
+
