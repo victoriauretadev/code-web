@@ -377,3 +377,86 @@ body {
   color: var(--color-primary);
 }
 
+/* ============================================
+   12. FORM STYLES
+   ============================================ */
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-lg);
+  margin-bottom: var(--spacing-lg);
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--spacing-lg);
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+}
+
+.form-group__label {
+  font-family: var(--font-primary);
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--color-light);
+  letter-spacing: 0.5px;
+}
+
+.form-group__label--required {
+  color: var(--color-primary);
+  font-weight: 600;
+}
+
+.form-group__input,
+.form-group__select {
+  background-color: #0f0f12;
+  border: 1px solid #2a2a2a;
+  padding: var(--spacing-md);
+  color: var(--color-light);
+  font-family: var(--font-secondary);
+  font-size: 14px;
+  outline: none;
+  border-radius: var(--radius-sm);
+  transition: var(--transition);
+  letter-spacing: 0.5px;
+}
+
+.form-group__input::placeholder {
+  color: var(--color-text-light);
+}
+
+.form-group__input:focus,
+.form-group__select:focus {
+  border-color: var(--color-primary);
+  box-shadow: 0 0 12px rgba(163, 74, 232, 0.3);
+}
+
+.form-group__select {
+  cursor: pointer;
+}
+
+.form-group__select option {
+  background-color: var(--color-secondary);
+  color: var(--color-light);
+}
+
+.form-group__checkbox {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+  font-size: 13px;
+  color: var(--color-text-light);
+  padding: var(--spacing-sm) 0;
+}
+
+.form-group__checkbox input[type="checkbox"] {
+  cursor: pointer;
+  accent-color: var(--color-primary);
+}
+
