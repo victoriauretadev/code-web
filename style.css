@@ -1503,8 +1503,16 @@ body {
    ============================================ */
 
 @media (max-width: 768px) {
+  .header {
+    border: 1px solid red;
+    margin-top:auto;
+  }
   .logo__img {
-    width: 150px;
+    width: 270px;
+    border:1px solid greenyellow;
+    margin-top: -17px;
+
+    /* border:1px solid red; */
   }
 
   .hero {
