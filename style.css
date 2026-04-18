@@ -1503,13 +1503,11 @@ body {
    ============================================ */
 
 @media (max-width: 768px) {
- .header__container{
-  /* border: 1px solid red; */
-  margin-top:5px;
- }
+  .header__container {
+    /* border: 1px solid red; */
+    margin-top: 5px;
+  }
 
-
- 
   .logo__img {
     width: 270px;
     /* border:1px solid greenyellow; */
@@ -1599,18 +1597,9 @@ body {
    ============================================ */
 
 @media (max-width: 480px) {
-  
   .logo__img {
     width: 270px;
   }
-
-   .hero__title{
-  font-size: 36px !important;
- }
-
- .hero__subtitle{
-  font-size: 25px !important;
- }
 
   .hamburger__line {
     width: 22px;
