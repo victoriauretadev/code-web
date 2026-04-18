@@ -728,8 +728,17 @@ body {
    ============================================ */
 
 @media (max-width: 768px) {
+  .header__container{
+  /* border: 1px solid red; */
+  margin-top:5px;
+ }
+ 
   .logo__img {
-    width: 150px;
+    width: 270px;
+    /* border:1px solid greenyellow; */
+    margin-top: -17px;
+
+    /* border:1px solid red; */
   }
 
   .auth-section {

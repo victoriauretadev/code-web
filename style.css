@@ -1503,10 +1503,11 @@ body {
    ============================================ */
 
 @media (max-width: 768px) {
-  .header {
-    /* border: 1px solid red; */
-    margin-top:auto;
-  }
+ .header__container{
+  /* border: 1px solid red; */
+  margin-top:5px;
+ }
+ 
   .logo__img {
     width: 270px;
     /* border:1px solid greenyellow; */
@@ -1596,16 +1597,9 @@ body {
    ============================================ */
 
 @media (max-width: 480px) {
-  .header {
-    /* border: 1px solid red; */
-    margin-top:auto;
-  }
+  
   .logo__img {
     width: 270px;
-    /* border:1px solid greenyellow; */
-    margin-top: -17px;
-
-    /* border:1px solid red; */
   }
 
   .hamburger__line {
