@@ -58,7 +58,6 @@ body {
   overflow-x: hidden;
 }
 
-
 /* ============================================
    3. CONTENEDOR GENERAL
    ============================================ */
@@ -105,7 +104,6 @@ body {
 .text-primary {
   color: var(--color-primary);
 }
-
 
 /* ============================================
    5. HEADER
@@ -246,7 +244,6 @@ body {
 .nav-menu__link:hover::after {
   width: 100%;
 }
-
 
 /* ============================================
    9. AUTH BUTTONS
@@ -1404,13 +1401,12 @@ body {
   letter-spacing: 0.5px;
 }
 
-
 /* ============================================
    28. RESPONSIVE DESIGN - TABLET (1024px)
    ============================================ */
 
-   @media (max-width: 1024px){
-    .hamburger {
+@media (max-width: 1024px) {
+  .hamburger {
     display: flex !important;
   }
 
@@ -1500,8 +1496,7 @@ body {
   .stats-grid__item:last-child {
     border-bottom: none;
   }
-   }
-
+}
 
 /* ============================================
    29. RESPONSIVE DESIGN - TABLET PEQUEÑO (768px)
