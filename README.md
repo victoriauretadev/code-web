@@ -8,7 +8,7 @@ Landing page desarrollada para ofrecer servicios de diseño y desarrollo web, en
 
 🎯 Objetivo
 
-El objetivo de este sitio es presentar servicios digitales de forma clara, moderna y persuasiva, optimizando la conversión de visitantes en clientes.
+El objetivo de este sitio es presentar servicios digitales de forma clara, moderna y persuasiva, optimizando la conversión de visitantes en potenciales clientes.
 
 🚀 Tecnologías utilizadas
 HTML5
